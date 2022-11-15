@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+@keyframes bgcolor{
+    0%
+    {
+        background: #ef5777;
+    }
+    20%
+    {
+        background: #575fcf;
+    }
+    40%
+    {
+        background: #00d8d6;
+    }
+    60%
+    {
+        background: #1e272e;
+    }
+    80%
+    {
+        background: #006266;
+    }
+    100%
+    {
+        background: #ea8685;
+    }
+}
